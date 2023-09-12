@@ -4,12 +4,15 @@
   "description": "Starter project for week 01 in-class activity",
   "main": "index.ts",
   "scripts": {
-      "run": "tsc && node dist/index.js"
+    "run": "tsc && node dist/index.js"
   },
   "author": "Put your name here",
   "license": "ISC",
   "dependencies": {
     "typescript": "^3.9.6"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "@types/node": "^20.6.0"
+  }
 }
